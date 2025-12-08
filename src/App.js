@@ -12,10 +12,13 @@ import Counter from './components/Counter';
 import LoginForm from './components/LoginForm';
 import CityList from './components/CityList';
 import CityListOnClick from './components/CityListOnClick';
+import Alert from './components/Alert';
 function UserList(){
   return(
     <div>
-      <CityListOnClick />
+   <Alert type="success"> 
+    <strong>Błąd!</strong> Wystąpił problem.
+    </Alert> 
     </div>
   );
 }
