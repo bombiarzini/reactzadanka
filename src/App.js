@@ -13,12 +13,19 @@ import LoginForm from './components/LoginForm';
 import CityList from './components/CityList';
 import CityListOnClick from './components/CityListOnClick';
 import Alert from './components/Alert';
+import PrzyciskOnDoubleClick from './components/PrzyciskOnDoubleClick';
+
 function UserList(){
   return(
     <div>
    <Alert type="success"> 
     <strong>Błąd!</strong> Wystąpił problem.
     </Alert> 
+
+    <PrzyciskOnDoubleClick>
+    cos
+    </PrzyciskOnDoubleClick> 
+    
     </div>
   );
 }
