@@ -17,6 +17,7 @@ const Button = ({ text="Kliknij"}) => {
 >      {text} 
 
         </button> 
+        
 
     ); 
 

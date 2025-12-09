@@ -14,17 +14,19 @@ import CityList from './components/CityList';
 import CityListOnClick from './components/CityListOnClick';
 import Alert from './components/Alert';
 import PrzyciskOnDoubleClick from './components/PrzyciskOnDoubleClick';
+import RozmiaryPrzycisku2 from './components/RozmiaryPrzycisku2';
+
 
 function UserList(){
   return(
     <div>
    <Alert type="success"> 
     <strong>Błąd!</strong> Wystąpił problem.
-    </Alert> 
+    </Alert>
 
-    <PrzyciskOnDoubleClick>
-    cos
-    </PrzyciskOnDoubleClick> 
+    <RozmiaryPrzycisku2>
+
+    </RozmiaryPrzycisku2>
     
     </div>
   );
