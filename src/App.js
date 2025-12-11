@@ -15,6 +15,7 @@ import CityListOnClick from './components/CityListOnClick';
 import Alert from './components/Alert';
 import PrzyciskOnDoubleClick from './components/PrzyciskOnDoubleClick';
 import RozmiaryPrzycisku2 from './components/RozmiaryPrzycisku2';
+import AlertVisible from './components/AlertVisible';
 
 
 function UserList(){
@@ -24,9 +25,9 @@ function UserList(){
     <strong>Błąd!</strong> Wystąpił problem.
     </Alert>
 
-    <RozmiaryPrzycisku2>
-
-    </RozmiaryPrzycisku2>
+    <AlertVisible>
+  
+    </AlertVisible>
     
     </div>
   );
