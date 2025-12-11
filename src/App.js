@@ -16,7 +16,7 @@ import Alert from './components/Alert';
 import PrzyciskOnDoubleClick from './components/PrzyciskOnDoubleClick';
 import RozmiaryPrzycisku2 from './components/RozmiaryPrzycisku2';
 import AlertVisible from './components/AlertVisible';
-
+import ZmianaKolorualert from './components/ZmianaKolorualert';
 
 function UserList(){
   return(
@@ -28,6 +28,12 @@ function UserList(){
     <AlertVisible>
   
     </AlertVisible>
+
+    
+
+    <ZmianaKolorualert>
+    
+    </ZmianaKolorualert>
     
     </div>
   );
